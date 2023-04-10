@@ -48,7 +48,7 @@ const Chart = ({ arr = [], currency, days }) => {
     }
 
     return (<Line options={{ responsive: true,
-             aspectRatio: 1 | 1,
+             aspectRatio: 1 | 2,
             }}
 
         data={data}
