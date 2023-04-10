@@ -90,7 +90,7 @@ const CoinDetails = () => {
       {
         loading ? (<Loader />) : (
           <>
-            <Box w={'full'} h={['50vh', '100vh']} p={1} borderWidth={1}>
+            <Box w={'full'} h={['50vh', '90vh']} borderWidth={1}>
               <Chart arr={chartArray} currency={currencySymbol} days={days} />
             </Box>
 
